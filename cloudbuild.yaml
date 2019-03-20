@@ -42,7 +42,7 @@ steps:
 
 # Demonstrate using the maven image directly.
 - name: 'maven'
-  args: ['mvn', 'install']
+  args: ['mvn', 'deploy']
   # dir: 'examples/spring_boot'
 
 images:
