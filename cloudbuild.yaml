@@ -34,7 +34,7 @@ steps:
 #  args: ['install']
 #  dir: 'examples/spring_boot'
 - name: 'gcr.io/$PROJECT_ID/mvn:3.5.0-jdk-8'
-  args: ['install']
+  args: ['clean', 'install']
   # dir: 'examples/spring_boot'
 #- name: 'gcr.io/$PROJECT_ID/mvn'
 #  args: ['install']
