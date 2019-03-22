@@ -11,12 +11,12 @@ steps:
 #  - '--build-arg=MAVEN_VERSION=3.3.9-jdk-8'
 #  - '--tag=gcr.io/$PROJECT_ID/mvn:3.3.9-jdk-8'
 #  - '.'
-- name: 'gcr.io/cloud-builders/docker'
-  args:
-  - 'build'
-  - '--build-arg=MAVEN_VERSION=3.5.0-jdk-8'
-  - '--tag=gcr.io/$PROJECT_ID/mvn:3.5.0-jdk-8'
-  - '.'
+#@- name: 'gcr.io/cloud-builders/docker'
+#@ args:
+#@  - 'build'
+#@  - '--build-arg=MAVEN_VERSION=3.5.0-jdk-8'
+#@  - '--tag=gcr.io/$PROJECT_ID/mvn:3.5.0-jdk-8'
+#@  - '.'
 
 # Build the latest version.
 #- name: 'gcr.io/cloud-builders/docker'
