@@ -34,15 +34,15 @@ steps:
 #  args: ['install']
 #  dir: 'examples/spring_boot'
 - name: 'gcr.io/$PROJECT_ID/mvn:3.5.0-jdk-8'
-  args: ['install']
+  args: ['mvn' 'install' 'deploy']
   # dir: 'examples/spring_boot'
 #- name: 'gcr.io/$PROJECT_ID/mvn'
 #  args: ['install']
 #  dir: 'examples/spring_boot'
 
 # Demonstrate using the maven image directly.
-- name: 'maven'
-  args: ['mvn', 'install']
+#- name: 'maven'
+#  args: ['mvn', 'install']
   # dir: 'examples/spring_boot'
 
 images:
