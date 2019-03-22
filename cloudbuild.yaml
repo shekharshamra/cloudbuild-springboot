@@ -3,6 +3,6 @@ steps:
           entrypoint: 'mvn'
           args: ['install']
         - name: 'gcr.io/cloud-builders/mvn'
-          args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/patients-image', '.' ]
+          args: [ 'build', 't', 'gcr.io/$PROJECT_ID/patients-image', '.' ]
         images:
         - 'gcr.io/$PROJECT_ID/patients-image'
