@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean' 'install']
+  args: ['clean', 'install']
 images:
 - 'gcr.io/$PROJECT_ID/mvn:3.5.0-jdk-8'
